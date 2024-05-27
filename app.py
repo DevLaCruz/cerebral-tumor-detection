@@ -3,7 +3,7 @@ from PIL import Image
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import model_from_json
-from utilities import focal_tversky, tversky_loss, tversky
+
 
 # Función para cargar modelo desde JSON
 
